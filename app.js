@@ -1,5 +1,11 @@
 const header = document.querySelector("header");
 
 window.addEventListener("scroll",function(){
-    header.classList.toggle("sticky", window.scrolly > 80)
+    header.classList.toggle("sticky", window.scrolly > 80) 
 })
+let menu = document.querySelector('#menu-icon');
+let navbar = document.querySelector('.navbar')
+menu.onclick = () =>{
+    menu.classList.toggle(bx-menu)
+    navbar.classList.toggle('open')
+}

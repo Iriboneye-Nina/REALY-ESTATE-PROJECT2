@@ -245,7 +245,7 @@ header .sticky{
  justify-content: center;
  flex-direction: column;
  text-align: center;
- background: url(./images2/image4.jpg);
+ background: url(../images2/image4.jpg);
  background-size: cover;
  background-position: center;
  border-radius: 20px;
